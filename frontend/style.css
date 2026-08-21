@@ -250,3 +250,50 @@ footer {
     }
 
 }
+/* =========================================
+   15. LEARNER INPUT
+   ========================================= */
+
+main > section > section:first-child label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+    font-weight: bold;
+}
+
+main > section > section:first-child input {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.75rem;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+main > section > section:first-child input:focus {
+    outline: 3px solid #A0D4E0;
+}
+
+#learningMessage {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+/* =========================================
+   16. REGISTERED LEARNERS
+   ========================================= */
+
+#usersList {
+    margin-top: 1.5rem;
+}
+
+.user {
+    background-color: white;
+    padding: 1rem;
+    margin-top: 0.75rem;
+    border-radius: 6px;
+    border-left: 5px solid #A08E5E;
+}
+
+.user p {
+    margin-top: 0.25rem;
+}
